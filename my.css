@@ -1,0 +1,99 @@
+.container {
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 170px;
+  background: #8bc34a;
+  border-radius: 5px;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button,
+#button1 {
+  display: inline-block;
+  background-color: #fc999b;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#button1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: #000;
+}
+
+ol li:nth-child(even) {
+  background: #dfdfdf;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.red {
+  border: 2px solid red;
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("https://wallpaperaccess.com/full/52448.jpg");
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+.ListY {
+  height: 35px;
+  width: 350px;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
